@@ -57,7 +57,7 @@ A simple and efficient Task Completing website, built using **React**, **Tailwin
 
      6. Click on the link of running localhost server and view the site.
 
-   - To fork this repository and make your own changes:
+   - To **Fork** this repository and make your own changes:
 
      1. Click the “Fork” button at the top right of this repository page.
      2. Clone your forked repository to your local machine using the steps above.
