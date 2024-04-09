@@ -65,7 +65,7 @@ A simple and efficient Task Completing website, built using **React**, **Tailwin
      4. Commit and push your changes to your forked repository.
      5. Create a pull request if you’d like to contribute your changes back to the original repository.
 
-<center><b>OR</b></center>
+<h3 align="center">OR</h3>
 
 3. **Set Up the Project for Your own App**:
 
