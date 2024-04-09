@@ -34,13 +34,13 @@ A simple and efficient Task Completing website, built using **React**, **Tailwin
      2. Run the following command:
 
         ```
-        git clone https://github.com/your-username/my-todo-app.git
+        git clone https://github.com/your-username/my-taskcomp-app.git
         ```
 
      3. Change your working directory to the cloned folder:
 
         ```
-        cd my-todo-app
+        cd my-taskcomp-app
         ```
 
      4. Install dependencies:
@@ -70,13 +70,13 @@ A simple and efficient Task Completing website, built using **React**, **Tailwin
 3. **Set Up the Project for Your own App**:
 
    - Open your terminal and navigate to your preferred directory.
-   - Run the following command to generate a new Vite project with React (replace "todo-app" with your desired project name):
+   - Run the following command to generate a new Vite project with React (replace "taskcomp-app" with your desired project name):
      ```
-     npm create vite@latest my-todo-app -- --template react
+     npm create vite@latest my-taskcomp-app -- --template react
      ```
-   - Change your working directory to the "my-todo-app" folder:
+   - Change your working directory to the "my-taskcomp-app" folder:
      ```
-     cd my-todo-app
+     cd my-taskcomp-app
      ```
    - Install Tailwind CSS:
      ```
@@ -108,12 +108,12 @@ A simple and efficient Task Completing website, built using **React**, **Tailwin
 
      ```jsx
      import React from "react";
-     import TodoList from "./components/TodoList";
+     import TaskComp from "./components/TaskComp";
 
      function App() {
        return (
          <div className="App">
-           <TodoList />
+           <TaskComp />
          </div>
        );
      }
@@ -121,9 +121,9 @@ A simple and efficient Task Completing website, built using **React**, **Tailwin
      export default App;
      ```
 
-5. **Create the TodoList Component**:
+5. **Create the TaskComp Component**:
 
-   - In `src/components/TodoList.jsx`, manage the list of tasks and handle task-related functionality.
+   - In `src/components/TaskComp.jsx`, manage the list of tasks and handle task-related functionality.
    - Use React Icons for task actions.
 
 6. **Implement Local Storage**:
